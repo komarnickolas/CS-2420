@@ -19,7 +19,6 @@ public class Hash_Table_Linear_Probing<KeyType, ValueType> implements Hash_Map<K
 
 	/** comment me */
 	private ArrayList<Pair<KeyType, ValueType>>	table;
-	private HashFunctor<KeyType>				hashFunctor;
 	protected int								capacity;
 	protected int								num_of_entries;
 	protected boolean                           doubling;
@@ -30,7 +29,7 @@ public class Hash_Table_Linear_Probing<KeyType, ValueType> implements Hash_Map<K
 	 * Hash Table Constructor
 	 * @param initial_capacity - try to make this equal to twice the expected number of values
 	 */
-	public Hash_Table_Linear_Probing( int initial_capacity , HashFunctor<KeyType> hashFunctor)
+	public Hash_Table_Linear_Probing( int initial_capacity )
 	{
 		this.capacity = next_prime(initial_capacity);
 		init_table();
@@ -38,7 +37,6 @@ public class Hash_Table_Linear_Probing<KeyType, ValueType> implements Hash_Map<K
 		this.find_times = 0;
 		this.insertion_times = 0;
 		this.hash_function_times = 0;
-		this.hashFunctor = hashFunctor;
 	}
 
 	/**
@@ -87,14 +85,14 @@ public class Hash_Table_Linear_Probing<KeyType, ValueType> implements Hash_Map<K
 
 	private int hash(KeyType key){
 		long start = System.nanoTime();
-		int hash = Math.abs(hashFunctor.hash(key) % capacity());
+		int hash = Math.abs(key.hashCode() % capacity());
 		long end = System.nanoTime() - start;
 		total_hash_function_time += end;
 		hash_function_times++;
 		return hash;
 	}
 
-	private int nextIndex(int current){
+	public int nextIndex(int current){
 		return current+1;
 	}
 	
