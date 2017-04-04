@@ -1,0 +1,22 @@
+Nickolas Komarnitsky
+u0717854
+01/30/2017
+2420
+Assignment03
+What is the purpose of the project?
+To write a program to solve a sudoku puzzle.
+
+What classes are to be created and how do they interact?
+A Sudoku_class class, main class, and a test class. The main class will create and run the Sudoku_class solver. The Sudoku_class class will contain the code for solving the Sudoku_class. The test class will ensure that the methods in the Sudoku_class class run properly.
+
+What is the Set class and how is it going to be used in your program? Why are we using it? (Do not say that Jim told you to...)
+The set class is a data structure, it will be used to store the puzzle.
+
+What is the relationship between a 1D array implementation of the puzzle and a 2D matrix implementation?
+The 1D array is simply a list of all of the numbers, with the spots with nothing being null. The 2d implementation gives us an actual picture of the puzzle, with numbers having a row and col assignment and blank spots in the array.
+
+Base on your previous experience in CS1410 and CS2420, how much time do you predict this program will take you to write?
+I think that this will take me 5-10 hours.
+
+How often do you think the recursive solver will successfully solve a puzzle? How often do you think the constraint solver will solve a puzzle.
+I think that the recursive solver wil almost always solve the puzzle, as it is more of a brute force attempt. The constraint solver might have a harder time, solving the puzzle less often, but if the program runs until it verifies that the puzzle is correct then both will always solve it.

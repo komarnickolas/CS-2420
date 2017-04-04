@@ -1,0 +1,52 @@
+digraph BST {
+node [shape=record]
+a[label="<L> |<D> a|<R> "]
+b[label="<L> |<D> b|<R> "]
+c[label="<L> |<D> c|<R> "]
+d[label="<L> |<D> d|<R> "]
+e[label="<L> |<D> e|<R> "]
+f[label="<L> |<D> f|<R> "]
+g[label="<L> |<D> g|<R> "]
+h[label="<L> |<D> h|<R> "]
+i[label="<L> |<D> i|<R> "]
+j[label="<L> |<D> j|<R> "]
+k[label="<L> |<D> k|<R> "]
+l[label="<L> |<D> l|<R> "]
+m[label="<L> |<D> m|<R> "]
+n[label="<L> |<D> n|<R> "]
+o[label="<L> |<D> o|<R> "]
+p[label="<L> |<D> p|<R> "]
+q[label="<L> |<D> q|<R> "]
+r[label="<L> |<D> r|<R> "]
+s[label="<L> |<D> s|<R> "]
+t[label="<L> |<D> t|<R> "]
+u[label="<L> |<D> u|<R> "]
+v[label="<L> |<D> v|<R> "]
+w[label="<L> |<D> w|<R> "]
+y[label="<L> |<D> y|<R> "]
+z[label="<L> |<D> z|<R> "]
+y:R -> z:D
+w:R -> y:D
+v:R -> w:D
+u:R -> v:D
+t:R -> u:D
+s:R -> t:D
+r:R -> s:D
+q:R -> r:D
+p:R -> q:D
+o:R -> p:D
+n:R -> o:D
+m:R -> n:D
+l:R -> m:D
+k:R -> l:D
+j:R -> k:D
+i:R -> j:D
+h:R -> i:D
+g:R -> h:D
+f:R -> g:D
+e:R -> f:D
+d:R -> e:D
+c:R -> d:D
+b:R -> c:D
+a:R -> b:D
+}

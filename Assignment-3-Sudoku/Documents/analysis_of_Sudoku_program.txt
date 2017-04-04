@@ -1,0 +1,37 @@
+Nickolas Komarnitsky
+02/02/2017
+2420
+Assignment03
+
+Create a plot of the cost of running (the number of guesses) the recursive solver.
+null
+
+What does this empirical analysis make you think about the likely future runs of the program?
+null
+
+Come up with something to measure about the constraint solver and create a plot of the cost of running this solver on the sample Sudoku_class programs
+You could meaure the ammount of times that it removes possiiblities
+
+Describe what you measured and why you think this is useful.
+null
+
+How much time did you spend on this project? Was it more or less than you expected. Why?
+I spent 15-20 hours, it was way more that I was expecting. I followed the directions that were given to me for this project, but none of them worked like they were supposed to. Everytime that I ran the program it simply threw a stackoverflow error. I couldn;t get it to do anything else
+
+What was the most time consuming part of the programming? What can you do better in the future? Did you plan enough? Did you allocate enough time from the start of the week or did you wait until the last minute to get things done?
+The programming, I could do better by putting assignments like this ahead of my other classes assignments so that I don;t end up having to cram and not be able to ask for help.
+
+What problems came up that took disproportionate amounts of time?
+Getting the recursive algorithm to work properly.
+
+Discuss Recursion. How does it make this project work? Do you feel you have a good understanding or "is it all magic"?
+I understand how recursion works. It makes this project work by moving through each cell in the sudoku and checking numbers in the sudoku.
+
+Discuss the constraint solver. How does it make this project work?
+It functions by first eliminating any values that aren't possible in a given cell.
+
+Finish up with any thoughts you have on this project. Was it exciting or ho-hum. What possibilities do you see if you had more time to work on it?
+I would like to figure out how to complete it, but I can't.
+
+Speculate on how could you apply these techniques to solving another problem?
+I could try to do better that I did on this assignment.

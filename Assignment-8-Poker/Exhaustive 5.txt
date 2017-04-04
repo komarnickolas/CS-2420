@@ -1,0 +1,15 @@
+Exhaustive 5 cards Time: 1383507485
+-----------------------
+Exhaustive 5 percentages
+Rank;Percentage
+Royal Flush;0.0
+Straight Flush;0.0
+Four of a Kind;24.353759765625
+Full House;5.379525661468506
+Flush;2.97127366065979
+Straight;2.3424978256225586
+Three of a Kind;19.496158599853516
+Two Pair;15.513912200927734
+Pair;25.66884422302246
+High Card;4.274031162261963
+-----------------------
