@@ -22,8 +22,39 @@ public class Hash_Table_Quadratic_Probing<KeyType, ValueType> extends Hash_Table
     }
 
     @Override
-    public int nextIndex(int current) {
-        return current+1;
+    public void nextIndex(){
+        current = hash;
+        int next = hash + (probe^2);
+        probe++;
+        for(int i = 0; i<next; i++){
+            if(current >= capacity()){
+                current = 0;
+            }else {
+                current++;
+            }
+        }
+    }
+
+
+    /**
+     * Fill in calculations to show some of the stats about the hash table
+     */
+    @Override
+    public String toString()
+    {
+        String result = new String();
+        ArrayList<Double> stats = print_stats();
+        result = "------------ Hash Table Quadratic Info ------------\n"
+                + "  Average collisions: "+stats.get(0)+"\n"
+                + "  Average Hash Function Time: "+stats.get(1)+"\n"
+                + "  Average Insertion Time: "+stats.get(2)+"\n"
+                + "  Average Find Time: "+stats.get(3)+"\n"
+                + "  Percent filled : "+stats.get(4)+"\n"
+                + "  Size of Table  : "+capacity()+"\n"
+                + "  Elements       : "+size()+"\n"
+                + "-----------------------------------------\n";
+        return result;
+
     }
 
 }

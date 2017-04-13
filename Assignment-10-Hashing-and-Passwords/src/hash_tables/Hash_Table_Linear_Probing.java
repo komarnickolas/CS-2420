@@ -21,9 +21,10 @@ public class Hash_Table_Linear_Probing<KeyType, ValueType> implements Hash_Map<K
 	private ArrayList<Pair<KeyType, ValueType>>	table;
 	protected int								capacity;
 	protected int								num_of_entries;
-	protected boolean                           doubling;
+	protected boolean 							resize;
 	protected long 								total_find_time, total_insertion_time, total_hash_function_time;
 	protected int								find_times, insertion_times, hash_function_times, collisions;
+	protected int								probe, hash, current;
 
 	/**
 	 * Hash Table Constructor
@@ -37,6 +38,7 @@ public class Hash_Table_Linear_Probing<KeyType, ValueType> implements Hash_Map<K
 		this.find_times = 0;
 		this.insertion_times = 0;
 		this.hash_function_times = 0;
+		this.collisions = 0;
 	}
 
 	/**
@@ -53,27 +55,26 @@ public class Hash_Table_Linear_Probing<KeyType, ValueType> implements Hash_Map<K
 	 */
 	public void insert( KeyType key, ValueType value ) {
 		long insert_start = System.nanoTime();
-		collisions = 0;
-		if(size() > capacity/2 && doubling){
+		if(size() > capacity/2 && resize){
 			resize(capacity()*2);
 		}
-		int hash = hash(key);
+		hash = hash(key);
 		if(table.get(hash) == null){
 			table.set(hash, new Pair<>(key,value));
 			num_of_entries++;
+		}else if(table.get(hash).key == key) {
+			table.get(hash).value = value;
 		}else{
 			collisions++;
-			int i = nextIndex(hash);
+			probe = 2;
+			current = hash + 1;
 			while(true){
-				if(i > capacity()){
-					i = 0;
-				}
-				if(table.get(i) == null){
-					table.set(i,new Pair<>(key,value));
+				if(table.get(current) == null){
+					table.set(current,new Pair<>(key,value));
 					num_of_entries++;
 					break;
 				}else{
-					i = nextIndex(i);
+					nextIndex();
 					collisions++;
 				}
 			}
@@ -92,19 +93,16 @@ public class Hash_Table_Linear_Probing<KeyType, ValueType> implements Hash_Map<K
 		return hash;
 	}
 
-	public int nextIndex(int current){
-		return current+1;
-	}
-	
-	/**
-	 * if doubling is off, then do not change table size in insert method
-	 * 
-	 * @param on - turns doubling on (the default value for a hash table should be on)
-	 */
-	public void doubling_behavior(boolean on)
-	{
-		// FIXME:
-		doubling = on;
+
+	public void nextIndex(){
+		int next = hash + probe;
+		probe++;
+		if(next >= capacity()){
+			int diff = capacity() - hash;
+			current = 0 + (probe - diff);
+		}else{
+			current = next;
+		}
 	}
 
 	/**
@@ -120,13 +118,25 @@ public class Hash_Table_Linear_Probing<KeyType, ValueType> implements Hash_Map<K
 		long find_start = System.nanoTime();
 		int hash = hash(key);
 		if(table.get(hash) != null) {
-			if (table.get(hash).key == key) {
+			if (table.get(hash).key.equals(key)) {
 				long find_end = System.nanoTime() - find_start;
 				total_find_time += find_end;
 				find_times++;
 				return table.get(hash).value;
 			}else{
 				collisions++;
+				probe = 2;
+				current = hash + 1;
+				while(current != hash){
+					if(table.get(current) == null){
+						return null;
+					}else if(table.get(current).key.equals(key)) {
+						return table.get(current).value;
+					}else {
+						nextIndex();
+						collisions++;
+					}
+				}
 			}
 		}else{
 			collisions++;
@@ -171,11 +181,10 @@ public class Hash_Table_Linear_Probing<KeyType, ValueType> implements Hash_Map<K
 	 */
 	public ArrayList<Double> print_stats()
 	{
-		// FIXME: insert code
 		ArrayList<Double> stats = new ArrayList<>();
 
 		double avg_collision = collisions;
-		avg_collision/=insertion_times;
+		avg_collision/=(insertion_times + find_times);
 		stats.add(avg_collision);
 
 		double avg_hash_function = total_hash_function_time;
@@ -205,7 +214,7 @@ public class Hash_Table_Linear_Probing<KeyType, ValueType> implements Hash_Map<K
 	{
 		String result = new String();
 		ArrayList<Double> stats = print_stats();
-		result = "------------ Hash Table Info ------------\n"
+		result = "------------ Hash Table Linear Info ------------\n"
 				+ "  Average collisions: "+stats.get(0)+"\n"
 				+ "  Average Hash Function Time: "+stats.get(1)+"\n"
 				+ "  Average Insertion Time: "+stats.get(2)+"\n"
@@ -222,9 +231,16 @@ public class Hash_Table_Linear_Probing<KeyType, ValueType> implements Hash_Map<K
 	 * Resets the hash table stats.
 	 *
 	 */
+	@Override
 	public void reset_stats()
 	{
-		// FIXME: insert code
+		total_hash_function_time = 0;
+		hash_function_times = 0;
+		total_find_time = 0;
+		find_times=0;
+		total_insertion_time = 0;
+		insertion_times = 0;
+		collisions = 0;
 	}
 
 	/**
@@ -251,8 +267,7 @@ public class Hash_Table_Linear_Probing<KeyType, ValueType> implements Hash_Map<K
 	 */
 	public void set_resize_allowable( boolean status )
 	{
-		//FIXME:
-		doubling_behavior(status);
+		resize = status;
 	}
 	
 	/**
@@ -271,6 +286,9 @@ public class Hash_Table_Linear_Probing<KeyType, ValueType> implements Hash_Map<K
 		if(new_size > size()){
 			capacity = next_prime(new_size);
 			ArrayList<Pair<KeyType, ValueType>> temp = new ArrayList<>(capacity());
+			for(int i = 0; i<capacity(); i++){
+				temp.add(null);
+			}
 			for(int i = 0; i<table.size(); i++){
 				temp.set(i,table.get(i));
 			}

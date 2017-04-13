@@ -105,6 +105,7 @@ public interface Hash_Map<KeyType, ValueType>
 	 */
 	public ArrayList<Double> print_stats();
 
+	public void reset_stats();
 	/**
 	 * Expand the hash table to the new size, IF the new_size is GREATER than the current size
 	 * (if not, doesn't do anything)
