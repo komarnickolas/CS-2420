@@ -47,7 +47,7 @@ public class Timing extends Application{
     public static FileWriter heap_insertion_same_fw,heap_insertion_in_order_fw, heap_insertion_random_fw,heap_deque_same_fw,heap_deque_in_order_fw,heap_deque_random_fw ;
     public static int MAX = 100;
     public static int COUNT = 1;
-    private HashMap<Task, Label> tasks = new HashMap<>();
+    private HashMap<Task, Indicator> tasks = new HashMap<>();
     private final ExecutorService exec = Executors.newFixedThreadPool(8, r -> {
         Thread t = new Thread(r);
         t.setDaemon(true);
@@ -60,20 +60,15 @@ public class Timing extends Application{
     @Override
     public void start(Stage primaryStage) throws Exception {
         primaryStage = new Stage();
-        tasks.put(new insertion_same(), new Label());
-        tasks.put(new insertion_in_order(), new Label());
-        tasks.put(new insertion_random(), new Label());
-        tasks.put(new deque_same(), new Label());
-        tasks.put(new deque_in_order(), new Label());
-        tasks.put(new deque_random(), new Label());
+        tasks.put(new insertion_same(), new Indicator());
+        tasks.put(new insertion_in_order(), new Indicator());
+        tasks.put(new insertion_random(), new Indicator());
+        tasks.put(new deque_same(), new Indicator());
+        tasks.put(new deque_in_order(), new Indicator());
+        tasks.put(new deque_random(), new Indicator());
         Label pendingTasksLabel = new Label();
         IntegerProperty pendingTasks = new SimpleIntegerProperty(0);
         pendingTasksLabel.textProperty().bind(pendingTasks.asString("Pending Tasks: %d"));
-        DoubleProperty progress = new SimpleDoubleProperty(ProgressIndicator.INDETERMINATE_PROGRESS);
-        ProgressBar progressBar = new ProgressBar();
-        ProgressIndicator progressIndicator = new ProgressIndicator();
-        progressIndicator.progressProperty().bind(progress);
-        progressBar.progressProperty().bind(progress);
         MenuBar menuBar = new MenuBar();
         Menu control = new Menu("Control");
         Menu variables = new Menu("Max: " + MAX + " Count: " + COUNT);
@@ -84,26 +79,17 @@ public class Timing extends Application{
         MenuItem stop = new MenuItem("Stop");
         control.getItems().addAll(launch,stop);
         menuBar.getMenus().addAll(control, variables);
-        VBox root = new VBox(10,menuBar,new HBox(pendingTasksLabel, progressBar, progressIndicator));
+        VBox root = new VBox(10,menuBar,pendingTasksLabel);
         launch.setOnAction(e -> {
-            progress.unbind();
-            progress.bind( new DoubleBinding() {
-                {
-                    tasks.forEach((task,l) ->{
-                        bind(task.progressProperty());
-                    });
-                }
-
-                @Override
-                public double computeValue() {
-                    return MAX * tasks.size();
-                }
-            });
             pendingTasks.set(tasks.size());
-            tasks.forEach(((task, label) -> root.getChildren().add(label)));
-            tasks.forEach((task, label) ->
+            tasks.forEach((task, indicator) -> {
+                root.getChildren().add(indicator);
+                indicator.getProgressBar().progressProperty().bind(task.progressProperty());
+                indicator.getProgressIndicator().progressProperty().bind(task.progressProperty());
+            });
+            tasks.forEach((task, indicator) ->
                     task.stateProperty().addListener((obs, oldState, newState) -> {
-                        label.setText(task.getTitle() + " " + newState);
+                        indicator.getStatus().setText(task.getTitle() + " " + newState);
 
                         // update pendingTasks if task moves out of running state:
                         if (oldState == Worker.State.RUNNING) {
@@ -121,7 +107,7 @@ public class Timing extends Application{
             COUNT = Integer.parseInt(JOptionPane.showInputDialog("Count: "));
             variables.setText("Max: " + MAX + " Count: " + COUNT);
         });
-        primaryStage.setScene(new Scene(root, 250, 250));
+        primaryStage.setScene(new Scene(root, 400, 400));
         primaryStage.show();
     }
 
