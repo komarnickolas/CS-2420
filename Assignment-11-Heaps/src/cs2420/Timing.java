@@ -1,22 +1,36 @@
 package cs2420;
 
 
+import cs2420.Tests.*;
 import javafx.application.Application;
+import javafx.beans.binding.DoubleBinding;
+import javafx.beans.property.DoubleProperty;
+import javafx.beans.property.IntegerProperty;
+import javafx.beans.property.SimpleDoubleProperty;
+import javafx.beans.property.SimpleIntegerProperty;
+import javafx.concurrent.ScheduledService;
 import javafx.concurrent.Task;
+import javafx.concurrent.Worker;
+import javafx.geometry.Insets;
+import javafx.geometry.Pos;
 import javafx.scene.Scene;
-import javafx.scene.control.ProgressIndicator;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
-import javafx.scene.control.cell.ProgressBarTableCell;
-import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.layout.BorderPane;
+import javafx.scene.control.*;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.Priority;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
+import javax.swing.*;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Random;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.stream.Collectors;
 
 /**
  * Nickolas Komarnitsky
@@ -29,117 +43,90 @@ import java.util.concurrent.Executors;
  */
 public class Timing extends Application{
 
-    private PrintWriter heap_insertion_pw, heap_deque_pw;
-    private FileWriter heap_insertion_fw, heap_deque_fw;
-    private Heap<Integer> heap;
-    private final int MAX = 1000000;
-    private final int COUNT = 1;
-    private Random rng = new Random();
+    public static PrintWriter heap_insertion_same_pw,heap_insertion_in_order_pw, heap_insertion_random_pw, heap_deque_same_pw,heap_deque_in_order_pw,heap_deque_random_pw;
+    public static FileWriter heap_insertion_same_fw,heap_insertion_in_order_fw, heap_insertion_random_fw,heap_deque_same_fw,heap_deque_in_order_fw,heap_deque_random_fw ;
+    public static int MAX = 100;
+    public static int COUNT = 1;
+    private HashMap<Task, Label> tasks = new HashMap<>();
+    private final ExecutorService exec = Executors.newFixedThreadPool(8, r -> {
+        Thread t = new Thread(r);
+        t.setDaemon(true);
+        return t ;
+    });
 
     public static void main(String[] args) {
         launch(args);
     }
     @Override
     public void start(Stage primaryStage) throws Exception {
-        heap_insertion_fw = new FileWriter("Heap Insertion.txt");
-        heap_insertion_pw = new PrintWriter(heap_insertion_fw);
-        heap_insertion_pw.println("Size;Time");
+        primaryStage = new Stage();
+        tasks.put(new insertion_same(), new Label());
+        tasks.put(new insertion_in_order(), new Label());
+        tasks.put(new insertion_random(), new Label());
+        tasks.put(new deque_same(), new Label());
+        tasks.put(new deque_in_order(), new Label());
+        tasks.put(new deque_random(), new Label());
+        Label pendingTasksLabel = new Label();
+        IntegerProperty pendingTasks = new SimpleIntegerProperty(0);
+        pendingTasksLabel.textProperty().bind(pendingTasks.asString("Pending Tasks: %d"));
+        DoubleProperty progress = new SimpleDoubleProperty(ProgressIndicator.INDETERMINATE_PROGRESS);
+        ProgressBar progressBar = new ProgressBar();
+        ProgressIndicator progressIndicator = new ProgressIndicator();
+        progressIndicator.progressProperty().bind(progress);
+        progressBar.progressProperty().bind(progress);
+        MenuBar menuBar = new MenuBar();
+        Menu control = new Menu("Control");
+        Menu variables = new Menu("Max: " + MAX + " Count: " + COUNT);
+        MenuItem count = new MenuItem("Set Count");
+        MenuItem max = new MenuItem("Set Max");
+        variables.getItems().addAll(max,count);
+        MenuItem launch = new MenuItem("Launch Tasks");
+        MenuItem stop = new MenuItem("Stop");
+        control.getItems().addAll(launch,stop);
+        menuBar.getMenus().addAll(control, variables);
+        VBox root = new VBox(10,menuBar,new HBox(pendingTasksLabel, progressBar, progressIndicator));
+        launch.setOnAction(e -> {
+            progress.unbind();
+            progress.bind( new DoubleBinding() {
+                {
+                    tasks.forEach((task,l) ->{
+                        bind(task.progressProperty());
+                    });
+                }
 
-        heap_deque_fw = new FileWriter("Heap Deque.txt");
-        heap_deque_pw = new PrintWriter(heap_deque_fw);
-        heap_deque_pw.println("Size;Time");
+                @Override
+                public double computeValue() {
+                    return MAX * tasks.size();
+                }
+            });
+            pendingTasks.set(tasks.size());
+            tasks.forEach(((task, label) -> root.getChildren().add(label)));
+            tasks.forEach((task, label) ->
+                    task.stateProperty().addListener((obs, oldState, newState) -> {
+                        label.setText(task.getTitle() + " " + newState);
 
-        TableView<Task> table = new TableView<>();
-        table.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
-        table.getItems().add(insertion);
-        table.getItems().add(deque);
-
-        TableColumn<Task, String> titleCol = new TableColumn("Title");
-        titleCol.setCellValueFactory(new PropertyValueFactory<Task,String>("title"));
-        titleCol.setPrefWidth(75);
-
-
-        TableColumn<Task, String> statusCol = new TableColumn("Status");
-        statusCol.setCellValueFactory(new PropertyValueFactory<>("message"));
-        statusCol.setPrefWidth(75);
-
-        TableColumn<Task, Double> progressCol = new TableColumn("Progress");
-        progressCol.setCellValueFactory(new PropertyValueFactory<>("progress"));
-        progressCol.setCellFactory(ProgressBarTableCell.forTableColumn());
-
-        table.getColumns().addAll(titleCol, statusCol, progressCol);
-
-        BorderPane root = new BorderPane();
-        root.setCenter(table);
-        primaryStage.setScene(new Scene(root));
-        primaryStage.show();
-
-        ExecutorService executor = Executors.newFixedThreadPool(table.getItems().size(), r -> {
-            Thread t = new Thread(r);
-            t.setDaemon(true);
-            return t;
+                        // update pendingTasks if task moves out of running state:
+                        if (oldState == Worker.State.RUNNING) {
+                            pendingTasks.set(pendingTasks.get() - 1);
+                        }
+                    }));
+            tasks.forEach((task,label) -> exec.execute(task));
         });
-
-        for (Task task : table.getItems()) {
-            executor.execute(task);
-        }
+        stop.setOnAction(e -> stop());
+        max.setOnAction(e ->{
+            MAX = Integer.parseInt(JOptionPane.showInputDialog("Max: "));
+            variables.setText("Max: " + MAX + " Count: " + COUNT);
+        });
+        count.setOnAction(e ->{
+            COUNT = Integer.parseInt(JOptionPane.showInputDialog("Count: "));
+            variables.setText("Max: " + MAX + " Count: " + COUNT);
+        });
+        primaryStage.setScene(new Scene(root, 250, 250));
+        primaryStage.show();
     }
 
-    Task<Void> insertion = new Task<Void>() {
-        @Override
-        protected Void call() throws Exception {
-            this.updateTitle("insertion");
-            this.updateProgress(ProgressIndicator.INDETERMINATE_PROGRESS, 1);
-            this.updateMessage("Waiting...");
-            Thread.sleep(rng.nextInt(3000) + 2000);
-            this.updateMessage("Running...");
-            heap = new Heap<>();
-            for (int i = 0; i <= MAX; i+=COUNT) {
-                updateProgress(i, MAX);
-                this.updateMessage("Running... " + i +"/"+MAX);
-                Long start = System.nanoTime();
-                heap.add(i);
-                Long end = System.nanoTime() - start;
-                heap_insertion_pw.println(i+";"+end);
-            }
-            this.updateMessage("Done");
-            this.updateProgress(1, 1);
-            heap_insertion_pw.close();
-            return null;
-        }
-    };
-
-    Task<Void> deque = new Task<Void>() {
-        @Override
-        protected Void call() throws Exception {
-            this.updateTitle("deque");
-            this.updateProgress(ProgressIndicator.INDETERMINATE_PROGRESS, 1);
-            this.updateMessage("Waiting...");
-            Thread.sleep(rng.nextInt(3000) + 2000);
-            this.updateMessage("Running...");
-            heap = new Heap<>();
-            for (int i = 1; i <= MAX; i+=COUNT) {
-                updateProgress(i, MAX);
-                this.updateMessage("Running... " + i +"/"+MAX);
-                heap.clear();
-                for(int k = 0; k<i; k++){
-                    heap.add(k);
-                }
-                Long start = System.nanoTime();
-                try {
-                    heap.dequeue();
-                }catch (Exception e){
-                    e.printStackTrace();
-                }
-                Long end = System.nanoTime() - start;
-                heap_deque_pw.println(i+";"+end);
-            }
-            this.updateMessage("Done");
-            this.updateProgress(MAX, MAX);
-            heap_deque_pw.close();
-            return null;
-        }
-    };
-
-
+    @Override
+    public void stop() {
+        exec.shutdownNow() ;
+    }
 }
