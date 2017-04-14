@@ -36,11 +36,16 @@ public class insertion_random extends Task<Integer>{
         Random random = new Random();
         for (int i = 0; i <= Timing.MAX; i+=Timing.COUNT) {
             updateProgress(i, Timing.MAX);
-            this.updateMessage("Running... " + i +"/"+Timing.MAX);
-            Long start = System.nanoTime();
-            heap.add(random.nextInt(Timing.MAX));
-            Long end = System.nanoTime() - start;
-            Timing.heap_insertion_random_pw.println(i+";"+end);
+            long total = 0;
+            for(int j = 0; j<5; j++) {
+                this.updateMessage("Running... " + i + "/" + Timing.MAX);
+                Long start = System.nanoTime();
+                heap.add(random.nextInt(Timing.MAX));
+                Long end = System.nanoTime() - start;
+                total += end;
+            }
+            total /= 5;
+            Timing.heap_insertion_random_pw.println(i+";"+total);
         }
         this.updateMessage("Done");
         this.updateProgress(Timing.MAX, Timing.MAX);
