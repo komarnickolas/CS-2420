@@ -35,6 +35,7 @@ public class insertion_random extends Test{
         setNum_of_runs(5);
         for (int i = 0; i <= Timing.MAX; i+=Timing.COUNT) {
             updateProgress(i, Timing.MAX);
+<<<<<<< HEAD
             this.updateMessage("Running... " + i +"/"+Timing.MAX);
             for(int k = 0; k<getNum_of_runs(); k++) {
                 start();
@@ -42,6 +43,18 @@ public class insertion_random extends Test{
                 end();
             }
            println(i + ";" + getTotal());
+=======
+            long total = 0;
+            for(int j = 0; j<5; j++) {
+                this.updateMessage("Running... " + i + "/" + Timing.MAX);
+                Long start = System.nanoTime();
+                heap.add(random.nextInt(Timing.MAX));
+                Long end = System.nanoTime() - start;
+                total += end;
+            }
+            total /= 5;
+            Timing.heap_insertion_random_pw.println(i+";"+total);
+>>>>>>> 8870947799d3a013a4a2e38034870cd309b10a59
         }
         this.updateMessage("Done");
         this.updateProgress(Timing.MAX, Timing.MAX);
