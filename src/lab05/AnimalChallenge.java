@@ -1,15 +1,11 @@
 package lab05;
 
-import java.lang.reflect.Type;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Comparator;
-import java.util.Objects;
-
-import lab05.zoo.Zoo;
 import lab05.zoo.Zoo.Animal;
 import lab05.zoo.Zoo.Pet;
 import lab05.zoo.ZooKeeper;
+
+import java.util.ArrayList;
+import java.util.Comparator;
 
 
 /**

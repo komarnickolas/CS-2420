@@ -1,9 +1,9 @@
 package lab08;
 
-import java.util.Arrays;
-
 import org.jfree.chart.JFreeChart;
 import org.jfree.data.category.DefaultCategoryDataset;
+
+import java.util.Arrays;
 
 /**
  * This class checks to see how well a random number generator works. It tests

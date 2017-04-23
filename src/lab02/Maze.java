@@ -1,13 +1,6 @@
 package lab02;
 
-import java.util.List;
-import java.util.Properties;
-
-import codemaze.Backpack;
-import codemaze.Checkpoint;
-import codemaze.Constants;
-import codemaze.MazeException;
-import codemaze.SpawnPoint;
+import codemaze.*;
 import codemaze.binarysearch.Cauldron;
 import codemaze.classic.Password;
 import codemaze.conditional.PuzzleWall;
@@ -18,6 +11,9 @@ import codemaze.npe.ChainFence;
 import codemaze.sphinx.Sphinx;
 import codemaze.spin.TeaCupCode;
 import codemaze.spin.TeaCups;
+
+import java.util.List;
+import java.util.Properties;
 
 public class Maze {
 	Backpack backpack = new Backpack();

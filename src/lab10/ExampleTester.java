@@ -1,12 +1,11 @@
 package lab10;
 
-import java.util.Iterator;
-
+import lab10.Lab10.Array_List_2420;
+import lab10.Lab10.Linked_List_2420;
 import org.junit.Assert;
 import org.junit.Test;
 
-import lab10.Lab10.Array_List_2420;
-import lab10.Lab10.Linked_List_2420;
+import java.util.Iterator;
 
 public class ExampleTester {
 	

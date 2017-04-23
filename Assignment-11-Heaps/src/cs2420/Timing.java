@@ -3,34 +3,18 @@ package cs2420;
 
 import cs2420.Tests.*;
 import javafx.application.Application;
-import javafx.beans.binding.DoubleBinding;
-import javafx.beans.property.DoubleProperty;
-import javafx.beans.property.IntegerProperty;
-import javafx.beans.property.SimpleDoubleProperty;
-import javafx.beans.property.SimpleIntegerProperty;
-import javafx.concurrent.ScheduledService;
-import javafx.concurrent.Task;
-import javafx.concurrent.Worker;
-import javafx.geometry.Insets;
-import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.Priority;
+import javafx.scene.control.cell.ProgressBarTableCell;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 import javax.swing.*;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.sql.Timestamp;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Random;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.stream.Collectors;
 
 /**
  * Nickolas Komarnitsky
@@ -43,16 +27,10 @@ import java.util.stream.Collectors;
  */
 public class Timing extends Application{
 
-    public static PrintWriter heap_insertion_same_pw,heap_insertion_in_order_pw, heap_insertion_random_pw, heap_deque_same_pw,heap_deque_in_order_pw,heap_deque_random_pw;
-    public static FileWriter heap_insertion_same_fw,heap_insertion_in_order_fw, heap_insertion_random_fw,heap_deque_same_fw,heap_deque_in_order_fw,heap_deque_random_fw ;
     public static int MAX = 100;
     public static int COUNT = 1;
-    private HashMap<Task, Indicator> tasks = new HashMap<>();
-    private final ExecutorService exec = Executors.newFixedThreadPool(8, r -> {
-        Thread t = new Thread(r);
-        t.setDaemon(true);
-        return t ;
-    });
+    private ArrayList<Test> tasks = new ArrayList<>();
+    private ExecutorService exec;
 
     public static void main(String[] args) {
         launch(args);
@@ -60,15 +38,19 @@ public class Timing extends Application{
     @Override
     public void start(Stage primaryStage) throws Exception {
         primaryStage = new Stage();
-        tasks.put(new insertion_same(), new Indicator());
-        tasks.put(new insertion_in_order(), new Indicator());
-        tasks.put(new insertion_random(), new Indicator());
-        tasks.put(new deque_same(), new Indicator());
-        tasks.put(new deque_in_order(), new Indicator());
-        tasks.put(new deque_random(), new Indicator());
-        Label pendingTasksLabel = new Label();
-        IntegerProperty pendingTasks = new SimpleIntegerProperty(0);
-        pendingTasksLabel.textProperty().bind(pendingTasks.asString("Pending Tasks: %d"));
+        TableView<Test> table = new TableView<>();
+        table.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
+
+        table.getItems().add(new insertion_same());
+        table.getItems().add(new insertion_in_order());
+        table.getItems().add(new insertion_random());
+        table.getItems().add(new deque_same());
+        table.getItems().add(new deque_in_order());
+        table.getItems().add(new deque_random());
+        table.getItems().add(new build_from_array_same());
+        table.getItems().add(new build_from_array_in_order());
+        table.getItems().add(new build_from_array_random());
+
         MenuBar menuBar = new MenuBar();
         Menu control = new Menu("Control");
         Menu variables = new Menu("Max: " + MAX + " Count: " + COUNT);
@@ -79,25 +61,29 @@ public class Timing extends Application{
         MenuItem stop = new MenuItem("Stop");
         control.getItems().addAll(launch,stop);
         menuBar.getMenus().addAll(control, variables);
-        VBox root = new VBox(10,menuBar,pendingTasksLabel);
-        launch.setOnAction(e -> {
-            pendingTasks.set(tasks.size());
-            tasks.forEach((task, indicator) -> {
-                root.getChildren().add(indicator);
-                indicator.getProgressBar().progressProperty().bind(task.progressProperty());
-                indicator.getProgressIndicator().progressProperty().bind(task.progressProperty());
-            });
-            tasks.forEach((task, indicator) ->
-                    task.stateProperty().addListener((obs, oldState, newState) -> {
-                        indicator.getStatus().setText(task.getTitle() + " " + newState);
 
-                        // update pendingTasks if task moves out of running state:
-                        if (oldState == Worker.State.RUNNING) {
-                            pendingTasks.set(pendingTasks.get() - 1);
-                        }
-                    }));
-            tasks.forEach((task,label) -> exec.execute(task));
+        TableColumn<Test, String> titleCol = new TableColumn("Title");
+        titleCol.setCellValueFactory(new PropertyValueFactory<>("title"));
+        titleCol.setPrefWidth(75);
+
+        TableColumn<Test, String> statusCol = new TableColumn("Status");
+        statusCol.setCellValueFactory(new PropertyValueFactory<>("state"));
+        statusCol.setPrefWidth(75);
+
+        TableColumn<Test, Double> progressCol = new TableColumn("Progress");
+        progressCol.setCellValueFactory(new PropertyValueFactory<>("progress"));
+        progressCol.setCellFactory(ProgressBarTableCell.forTableColumn());
+
+        table.getColumns().addAll(titleCol, statusCol, progressCol);
+
+        VBox root = new VBox(10,menuBar, table);
+
+        exec = Executors.newFixedThreadPool(table.getItems().size(), r -> {
+            Thread t = new Thread(r);
+            t.setDaemon(true);
+            return t ;
         });
+        launch.setOnAction(e ->table.getItems().forEach(exec::execute));
         stop.setOnAction(e -> stop());
         max.setOnAction(e ->{
             MAX = Integer.parseInt(JOptionPane.showInputDialog("Max: "));

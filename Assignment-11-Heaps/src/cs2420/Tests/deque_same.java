@@ -2,12 +2,9 @@ package cs2420.Tests;
 
 import cs2420.Heap;
 import cs2420.Timing;
-import javafx.concurrent.Task;
 import javafx.scene.control.ProgressIndicator;
 
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintWriter;
 
 /**
  * Nickolas Komarnitsky
@@ -18,12 +15,12 @@ import java.io.PrintWriter;
  * I pledge that the work done here was my own and that I have learned how to write this program, such that I could throw it out and restart and finish it in a timely manner. I am not turning in any work that I cannot understand, describe, or recreate. (Name)
  * Nickolas Komarnitsky
  */
-public class deque_same extends Task<Integer> {
+public class deque_same extends Test {
 
     public deque_same() throws IOException {
-        Timing.heap_deque_same_fw = new FileWriter("Heap Deque Same.txt");
-        Timing.heap_deque_same_pw = new PrintWriter(Timing.heap_deque_same_fw);
-        Timing.heap_deque_same_pw.println("Size;Time");
+        super();
+        setWriter("Heap Deque Same.txt");
+        println("Size;Time");
         this.updateTitle("deque_same");
     }
     @Override
@@ -39,19 +36,19 @@ public class deque_same extends Task<Integer> {
         for (int i = Timing.MAX; i >0; i-=Timing.COUNT) {
             updateProgress(progress, Timing.MAX);
             this.updateMessage("Running... " + i +"/"+Timing.MAX);
-            Long start = System.nanoTime();
+            start();
             try {
                 heap.dequeue();
             }catch (Exception e){
                 e.printStackTrace();
             }
-            Long end = System.nanoTime() - start;
-            Timing.heap_deque_same_pw.println(i+";"+end);
+            end();
+            println(i+";"+getTotal());
             progress++;
         }
         this.updateMessage("Done");
         this.updateProgress(Timing.MAX, Timing.MAX);
-        Timing.heap_deque_same_pw.close();
+        close();
         return null;
     }
 }

@@ -1,11 +1,11 @@
 package lab04;
 
-import java.util.Comparator;
-import java.util.List;
-
 import lab04.database.Database;
 import lab04.database.Student;
 import lab04.database.Tester;
+
+import java.util.Comparator;
+import java.util.List;
 
 /**
  * Comparator Practice for Lab 06, CS2420 - Spring 2017 

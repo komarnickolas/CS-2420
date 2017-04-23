@@ -16,7 +16,7 @@ import static org.junit.Assert.*;
  * Nickolas Komarnitsky
  */
 public class Testing {
-    // sample simple test you can use
+    // sample simple Test you can use
     @Test
     public void test_basic_insertion()
     {
@@ -47,7 +47,7 @@ public class Testing {
     }
 
 
-    // sample advanced test you might want to implement
+    // sample advanced Test you might want to implement
     @Test
     public void test_lots_of_insertions_deletions_peeks()
     {
@@ -61,6 +61,8 @@ public class Testing {
         }
 
         assertEquals(COUNT, heap.size());
+
+        heap.generateDotFile("Documents/large_heap.dot");
 
         int smallest = heap.dequeue();
 
@@ -76,6 +78,7 @@ public class Testing {
     public void test_build_from_array(){
         Heap<Integer> heap = new Heap<>();
         heap.build_heap_from_array(new Integer[]{1,6,3,7,8,5});
+        heap.build_heap_from_array(new Integer[]{1,2,3});
         heap.generateDotFile("Documents/build_from_array.dot");
     }
 }

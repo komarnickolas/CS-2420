@@ -1,11 +1,11 @@
 package lab11;
 
+import lab11.PropertyPrinter.PathType;
+
 import java.io.File;
 import java.net.URL;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import lab11.PropertyPrinter.PathType;
 /**
  * This is a wrapper class to construct the proper PropertyPrinter object, depending on the
  * type of file supplied

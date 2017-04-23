@@ -229,7 +229,7 @@ public class Heap<Type> implements Priority_Queue<Type>
 			return ((Comparable<? super Type>) lhs).compareTo(rhs); // safe to ignore warning
 		}
 
-		// We won't test your code on non-Comparable types if we didn't supply a Comparator
+		// We won't Test your code on non-Comparable types if we didn't supply a Comparator
 		return comparator.compare(lhs, rhs);
 	}
 
@@ -282,6 +282,7 @@ public class Heap<Type> implements Priority_Queue<Type>
 	public void build_heap_from_array( Type[] array ) {
 		// WARNING: advanced work only worth 2.5% of grade
 		// If you do not fully implement this code, leave it blan
+		clear();
 		heap_array = (Type[]) new Object[array.length * 2];
 		for(int i = 0; i<array.length; i++){
 			heap_array[i+1] = array[i];
@@ -291,19 +292,19 @@ public class Heap<Type> implements Priority_Queue<Type>
 	}
 
 	void heapify(int n, int i) {
-		int largest = i;
+		int smallest = i;
 		int l = leftChild(i);
 		int r = rightChild(i);
 
-		if (l < n && compare(heap_array[l], heap_array[largest]) > 0) {
-			largest = l;
+		if (l < n && compare(heap_array[l], heap_array[smallest]) > 0) {
+			smallest = l;
 		}
-		if (r < n && compare(heap_array[r], heap_array[largest]) > 0) {
-			largest = r;
+		if (r < n && compare(heap_array[r], heap_array[smallest]) > 0) {
+			smallest = r;
 		}
-		if (largest != i){
-			swap(i,largest);
-			heapify(n, largest);
+		if (smallest != i){
+			swap(i,smallest);
+			heapify(n, smallest);
 		}
 	}
 
