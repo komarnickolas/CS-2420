@@ -2,9 +2,425 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3257aa90-f025-48d4-8f49-1ec31de0dcf6" name="Default" comment="Sudoku">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Spell Checker" afterPath="$PROJECT_DIR$/../Spell Checker" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/.idea/libraries/Testing.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/src/cs2420/Runner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.0.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.0.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.1.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.1.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.10.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.10.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.100.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.100.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.11.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.11.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.12.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.12.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.13.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.13.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.14.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.14.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.15.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.15.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.16.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.16.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.17.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.17.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.18.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.18.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.19.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.19.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.2.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.2.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.20.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.20.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.21.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.21.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.22.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.22.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.23.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.23.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.24.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.24.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.25.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.25.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.26.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.26.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.27.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.27.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.28.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.28.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.29.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.29.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.3.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.3.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.30.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.30.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.31.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.31.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.32.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.32.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.33.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.33.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.34.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.34.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.35.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.35.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.36.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.36.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.37.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.37.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.38.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.38.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.39.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.39.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.4.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.4.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.40.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.40.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.41.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.41.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.42.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.42.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.43.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.43.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.44.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.44.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.45.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.45.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.46.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.46.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.47.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.47.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.48.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.48.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.49.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.49.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.5.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.5.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.50.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.50.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.51.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.51.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.52.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.52.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.53.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.53.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.54.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.54.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.55.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.55.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.56.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.56.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.57.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.57.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.58.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.58.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.59.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.59.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.6.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.6.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.60.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.60.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.61.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.61.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.62.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.62.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.63.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.63.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.64.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.64.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.65.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.65.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.66.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.66.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.67.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.67.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.68.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.68.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.69.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.69.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.7.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.7.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.70.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.70.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.71.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.71.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.72.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.72.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.73.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.73.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.74.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.74.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.75.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.75.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.76.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.76.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.77.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.77.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.78.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.78.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.79.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.79.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.8.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.8.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.80.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.80.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.81.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.81.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.82.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.82.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.83.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.83.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.84.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.84.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.85.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.85.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.86.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.86.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.87.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.87.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.88.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.88.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.89.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.89.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.9.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.9.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.90.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.90.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.91.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.91.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.92.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.92.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.93.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.93.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.94.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.94.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.95.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.95.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.96.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.96.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.97.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.97.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.98.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.98.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.99.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/a_few_letters/a_few_letters.99.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.0.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.0.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.1.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.1.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.10.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.10.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.100.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.100.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.11.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.11.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.12.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.12.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.13.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.13.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.14.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.14.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.15.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.15.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.16.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.16.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.17.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.17.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.18.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.18.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.19.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.19.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.2.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.2.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.20.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.20.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.21.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.21.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.22.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.22.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.23.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.23.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.24.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.24.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.25.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.25.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.26.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.26.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.27.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.27.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.28.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.28.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.29.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.29.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.3.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.3.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.30.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.30.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.31.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.31.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.32.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.32.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.33.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.33.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.34.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.34.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.35.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.35.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.36.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.36.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.37.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.37.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.38.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.38.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.39.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.39.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.4.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.4.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.40.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.40.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.41.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.41.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.42.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.42.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.43.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.43.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.44.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.44.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.45.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.45.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.46.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.46.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.47.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.47.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.48.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.48.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.49.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.49.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.5.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.5.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.50.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.50.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.51.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.51.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.52.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.52.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.53.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.53.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.54.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.54.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.55.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.55.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.56.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.56.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.57.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.57.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.58.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.58.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.59.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.59.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.6.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.6.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.60.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.60.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.61.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.61.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.62.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.62.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.63.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.63.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.64.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.64.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.65.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.65.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.66.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.66.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.67.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.67.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.68.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.68.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.69.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.69.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.7.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.7.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.70.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.70.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.71.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.71.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.72.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.72.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.73.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.73.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.74.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.74.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.75.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.75.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.76.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.76.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.77.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.77.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.78.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.78.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.79.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.79.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.8.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.8.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.80.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.80.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.81.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.81.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.82.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.82.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.83.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.83.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.84.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.84.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.85.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.85.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.86.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.86.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.87.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.87.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.88.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.88.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.89.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.89.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.9.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.9.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.90.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.90.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.91.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.91.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.92.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.92.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.93.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.93.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.94.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.94.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.95.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.95.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.96.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.96.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.97.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.97.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.98.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.98.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.99.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabet/alphabet.99.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.0.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.0.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.1.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.1.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.10.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.10.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.100.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.100.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.11.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.11.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.12.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.12.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.13.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.13.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.14.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.14.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.15.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.15.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.16.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.16.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.17.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.17.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.18.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.18.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.19.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.19.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.2.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.2.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.20.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.20.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.21.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.21.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.22.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.22.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.23.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.23.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.24.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.24.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.25.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.25.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.26.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.26.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.27.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.27.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.28.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.28.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.29.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.29.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.3.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.3.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.30.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.30.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.31.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.31.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.32.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.32.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.33.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.33.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.34.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.34.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.35.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.35.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.36.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.36.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.37.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.37.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.38.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.38.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.39.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.39.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.4.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.4.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.40.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.40.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.41.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.41.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.42.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.42.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.43.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.43.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.44.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.44.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.45.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.45.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.46.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.46.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.47.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.47.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.48.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.48.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.49.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.49.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.5.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.5.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.50.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.50.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.51.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.51.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.52.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.52.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.53.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.53.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.54.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.54.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.55.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.55.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.56.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.56.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.57.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.57.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.58.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.58.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.59.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.59.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.6.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.6.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.60.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.60.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.61.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.61.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.62.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.62.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.63.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.63.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.64.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.64.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.65.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.65.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.66.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.66.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.67.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.67.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.68.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.68.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.69.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.69.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.7.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.7.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.70.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.70.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.71.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.71.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.72.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.72.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.73.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.73.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.74.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.74.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.75.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.75.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.76.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.76.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.77.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.77.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.78.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.78.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.79.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.79.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.8.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.8.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.80.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.80.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.81.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.81.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.82.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.82.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.83.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.83.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.84.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.84.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.85.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.85.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.86.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.86.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.87.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.87.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.88.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.88.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.89.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.89.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.9.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.9.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.90.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.90.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.91.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.91.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.92.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.92.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.93.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.93.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.94.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.94.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.95.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.95.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.96.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.96.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.97.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.97.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.98.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.98.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.99.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/alphabetplus/alphabetplus.99.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.0.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.0.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.1.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.1.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.10.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.10.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.100.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.100.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.11.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.11.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.12.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.12.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.13.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.13.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.14.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.14.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.15.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.15.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.16.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.16.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.17.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.17.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.18.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.18.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.19.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.19.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.2.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.2.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.20.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.20.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.21.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.21.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.22.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.22.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.23.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.23.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.24.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.24.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.25.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.25.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.26.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.26.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.27.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.27.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.28.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.28.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.29.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.29.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.3.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.3.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.30.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.30.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.31.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.31.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.32.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.32.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.33.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.33.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.34.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.34.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.35.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.35.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.36.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.36.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.37.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.37.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.38.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.38.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.39.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.39.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.4.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.4.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.40.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.40.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.41.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.41.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.42.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.42.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.43.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.43.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.44.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.44.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.45.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.45.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.46.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.46.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.47.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.47.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.48.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.48.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.49.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.49.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.5.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.5.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.50.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.50.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.51.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.51.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.52.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.52.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.53.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.53.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.54.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.54.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.55.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.55.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.56.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.56.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.57.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.57.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.58.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.58.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.59.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.59.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.6.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.6.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.60.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.60.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.61.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.61.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.62.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.62.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.63.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.63.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.64.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.64.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.65.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.65.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.66.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.66.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.67.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.67.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.68.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.68.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.69.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.69.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.7.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.7.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.70.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.70.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.71.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.71.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.72.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.72.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.73.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.73.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.74.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.74.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.75.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.75.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.76.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.76.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.77.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.77.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.78.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.78.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.79.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.79.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.8.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.8.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.80.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.80.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.81.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.81.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.82.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.82.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.83.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.83.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.84.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.84.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.85.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.85.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.86.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.86.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.87.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.87.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.88.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.88.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.89.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.89.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.9.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.9.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.90.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.90.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.91.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.91.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.92.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.92.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.93.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.93.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.94.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.94.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.95.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.95.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.96.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.96.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.97.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.97.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.98.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.98.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.99.huf" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/compressed/simple/simple.99.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Assignment-12-Huffman.iml" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Assignment-12-Huffman.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/TestData/Words As Symbols a_few_letters.txt" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/TestData/Words As Symbols a_few_letters.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/TestData/Words As Symbols alphabet.txt" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/TestData/Words As Symbols alphabet.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/TestData/Words As Symbols alphabetplus.txt" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/TestData/Words As Symbols alphabetplus.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/TestData/Words As Symbols constitution.txt" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/TestData/Words As Symbols constitution.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/TestData/Words As Symbols decl_of_ind.txt" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/TestData/Words As Symbols decl_of_ind.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/TestData/Words As Symbols green_eggs_and_ham.txt" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/TestData/Words As Symbols green_eggs_and_ham.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/TestData/Words As Symbols simple.txt" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/TestData/Words As Symbols simple.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/TestData/Words As Symbols two_cities.txt" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/Resources/TestData/Words As Symbols two_cities.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-12-Huffman/src/cs2420/HuffmanTest.java" afterPath="$PROJECT_DIR$/../Assignment-12-Huffman/src/cs2420/HuffmanTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sudoku/Sudoku.java" afterPath="$PROJECT_DIR$/src/Sudoku/Sudoku.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,16 +431,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Sudoku$Runner.coverage" NAME="Runner Coverage Results" MODIFIED="1486088895228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Sudoku$SudokuApp.coverage" NAME="SudokuApp Coverage Results" MODIFIED="1486090445942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Sudoku.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Sudoku$SudokuApp.coverage" NAME="SudokuApp Coverage Results" MODIFIED="1486090445942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Sudoku$Main.coverage" NAME="Main Coverage Results" MODIFIED="1486086786648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Sudoku.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Sudoku$Sudoku.coverage" NAME="Sudoku Coverage Results" MODIFIED="1488145887356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Sudoku.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Sudoku$Main.coverage" NAME="Main Coverage Results" MODIFIED="1486086786648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Sudoku$Runner.coverage" NAME="Runner Coverage Results" MODIFIED="1486088895228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Sudoku.*</FILTER>
     </SUITE>
   </component>
@@ -41,6 +457,7 @@
               <caret line="85" column="9" lean-forward="false" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#4090#4099#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,8 +518,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="22" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="width" value="3856" />
+    <option name="height" value="2146" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -120,64 +537,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Sudoku" />
+              <option name="myItemId" value="Assignment-3-Sudoku" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sudoku" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sudoku" />
+              <option name="myItemId" value="Assignment-3-Sudoku" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Sudoku" />
+              <option name="myItemId" value="Assignment-3-Sudoku" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Sudoku" />
+              <option name="myItemId" value="Assignment-3-Sudoku" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sudoku" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sudoku" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sudoku" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -198,6 +587,18 @@
       <recent name="D:\Documents\GitHub\CS-2420\Sudoku\src\Sudoku" />
       <recent name="D:\Documents\GitHub\CS-2420\Sudoku\src\Sudoku2" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Application.Sudoku">
     <configuration default="false" name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -484,19 +885,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="" />
-      <envMap />
-      <setting name="rowsRange" value="" />
-      <method />
-    </configuration>
     <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Runner" />
       <item index="1" class="java.lang.String" itemvalue="Application.SudokuApp" />
@@ -512,6 +900,11 @@
         <item index="4" class="java.lang.String" itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -530,8 +923,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="22" width="3856" height="2146" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -548,7 +940,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10208333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.051041666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -866,13 +1258,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/sudoku.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="161" column="7" lean-forward="true" selection-start-line="161" selection-start-column="7" selection-end-line="161" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/sudoku.java" />
     <entry file="file://$PROJECT_DIR$/../src/lab03/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -929,13 +1315,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="744" column="0" lean-forward="false" selection-start-line="744" selection-start-column="0" selection-end-line="744" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Thread.java" />
     <entry file="file://$PROJECT_DIR$/../Spell Checker/src/cs2420/stylesheet.css" />
     <entry file="file://$PROJECT_DIR$/src/Sudoku/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -951,6 +1331,7 @@
           <caret line="85" column="9" lean-forward="false" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4090#4099#0" expanded="true" />
           </folding>
         </state>
       </provider>

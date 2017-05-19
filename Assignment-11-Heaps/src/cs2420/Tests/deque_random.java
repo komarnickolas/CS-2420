@@ -1,7 +1,9 @@
 package cs2420.Tests;
 
+import Tests.Test;
 import cs2420.Heap;
 import cs2420.Timing;
+import javafx.scene.chart.XYChart;
 import javafx.scene.control.ProgressIndicator;
 
 import java.io.IOException;
@@ -26,15 +28,12 @@ public class deque_random extends Test {
     }
     @Override
     protected Integer call() throws Exception {
-        this.updateProgress(ProgressIndicator.INDETERMINATE_PROGRESS, 1);
-        this.updateMessage("Running...");
         Random random = new Random();
         for (int i = 1; i <= Timing.MAX; i+=Timing.COUNT) {
-            updateProgress(i, Timing.MAX);
+            updateProgress(i);
             this.updateMessage("Running... " + i +"/"+Timing.MAX);
             Heap<Integer> heap = new Heap<>();
-            setNum_of_runs(5);
-            for(int j = 0; j<getNum_of_runs(); j++) {
+            for(int j = 0; j<5; j++) {
                 updateValue(j);
                 for (int k = 0; k < i; k++) {
                     heap.add(random.nextInt(Timing.MAX));
@@ -48,10 +47,8 @@ public class deque_random extends Test {
                 end();
             }
             println(i+";"+getTotal());
+            updateData(new XYChart.Data(i,getTotal()/5), "Time");
         }
-        this.updateMessage("Done");
-        this.updateProgress(Timing.MAX, Timing.MAX);
-        close();
         return null;
     }
 }

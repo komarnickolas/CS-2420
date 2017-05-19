@@ -1,7 +1,9 @@
 package cs2420.Tests;
 
+import Tests.Test;
 import cs2420.Heap;
 import cs2420.Timing;
+import javafx.scene.chart.XYChart;
 import javafx.scene.control.ProgressIndicator;
 
 import java.io.IOException;
@@ -34,7 +36,7 @@ public class deque_same extends Test {
         }
         int progress = 0;
         for (int i = Timing.MAX; i >0; i-=Timing.COUNT) {
-            updateProgress(progress, Timing.MAX);
+            updateProgress(progress);
             this.updateMessage("Running... " + i +"/"+Timing.MAX);
             start();
             try {
@@ -44,11 +46,9 @@ public class deque_same extends Test {
             }
             end();
             println(i+";"+getTotal());
+            updateData(new XYChart.Data(i,getTotal()/5), "Time");
             progress++;
         }
-        this.updateMessage("Done");
-        this.updateProgress(Timing.MAX, Timing.MAX);
-        close();
         return null;
     }
 }

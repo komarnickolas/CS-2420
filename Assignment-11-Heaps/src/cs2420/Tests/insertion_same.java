@@ -1,5 +1,6 @@
 package cs2420.Tests;
 
+import Tests.Test;
 import cs2420.Heap;
 import cs2420.Timing;
 import javafx.scene.control.ProgressIndicator;
@@ -15,7 +16,7 @@ import java.io.IOException;
  * I pledge that the work done here was my own and that I have learned how to write this program, such that I could throw it out and restart and finish it in a timely manner. I am not turning in any work that I cannot understand, describe, or recreate. (Name)
  * Nickolas Komarnitsky
  */
-public class insertion_same extends Test{
+public class insertion_same extends Test {
 
     public insertion_same() throws IOException {
         super();
@@ -38,7 +39,6 @@ public class insertion_same extends Test{
         }
         this.updateMessage("Done");
         this.updateProgress(Timing.MAX, Timing.MAX);
-        close();
         return null;
     }
 }

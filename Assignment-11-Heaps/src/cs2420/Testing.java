@@ -20,30 +20,37 @@ public class Testing {
     @Test
     public void test_basic_insertion()
     {
-        Heap<Integer> heap = new Heap<>();
+        Heap<Integer> integerHeap = new Heap<>();
 
-        heap.add( 5 );
-        heap.add( 6 );
-        heap.add( 3 );
-        heap.add( 7 );
-        heap.add( 8 );
-        heap.add( 1 );
+        integerHeap.add( 5 );
+        integerHeap.add( 6 );
+        integerHeap.add( 3 );
+        integerHeap.add( 7 );
+        integerHeap.add( 8 );
+        integerHeap.add( 1 );
 
-        assertEquals(6, heap.size());
+        assertEquals(6, integerHeap.size());
 
-        Object[] temp = heap.toArray();
+        Object[] temp = integerHeap.toArray();
 
         assertArrayEquals(new Integer[]{null, 1,6,3,7,8,5}, temp);
 
         // if you want to look at your heap, uncomment this line to generate a graph file,
         //
-               heap.generateDotFile("Documents/test_heap.dot");
+//               heap.generateDotFile("Documents/test_heap.dot");
         //
         // or uncomment this line, run the tests:
         //
         //       System.out.println(heap);
         //
         // and then paste the output of the console into: http://www.webgraphviz.com/
+
+        Heap<String> stringHeap = new Heap<>();
+        stringHeap.add("String 1");
+        stringHeap.add("String 2");
+        stringHeap.add("String 3");
+
+        assertEquals(3,stringHeap.size());
     }
 
 

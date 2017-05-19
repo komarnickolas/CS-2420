@@ -1,7 +1,9 @@
 package cs2420.Tests;
 
+import Tests.Test;
 import cs2420.Heap;
 import cs2420.Timing;
+import javafx.scene.chart.XYChart;
 import javafx.scene.control.ProgressIndicator;
 
 import java.io.IOException;
@@ -24,11 +26,9 @@ public class build_from_array_same extends Test {
     }
     @Override
     protected Integer call() throws Exception {
-        this.updateProgress(ProgressIndicator.INDETERMINATE_PROGRESS, 1);
-        this.updateMessage("Running...");
         Heap<Integer> heap = new Heap<>();
         for(int i = 1; i< Timing.MAX; i+=Timing.COUNT){
-            updateProgress(i,Timing.MAX);
+            updateProgress(i);
             this.updateMessage(i +"/"+Timing.MAX);
             Integer[] array = new Integer[i];
             for(int j = 0; j<i; j++){
@@ -38,10 +38,8 @@ public class build_from_array_same extends Test {
             heap.build_heap_from_array(array);
             end();
             println(i+";"+getTotal());
+            updateData(new XYChart.Data(i,getTotal()/5), "Time");
         }
-        updateMessage("Done");
-        updateProgress(Timing.MAX, Timing.MAX);
-        close();
         return null;
     }
 }

@@ -2,51 +2,442 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8aa8a1-680f-4cbf-85e5-805cc394bd56" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documents/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documents/assignment.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/a_few_letters" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cs2420/HuffmanTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/src/cs2420/Tests/Indicator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/src/cs2420/Tests/insertion_in_order.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/Testing/AnagramUtil/AnagramUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/Testing/AnagramUtil/CustomStringComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/Testing/DataForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/Testing/EditAxis.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/Testing/EditSeries.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/Testing/Runner.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/Testing/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/Testing/Testing.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/Documents/analysis_of_heaps.docx" afterPath="$PROJECT_DIR$/../Assignment-11-Heaps/Documents/analysis_of_heaps.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/Documents/build_from_array.dot" afterPath="$PROJECT_DIR$/../Assignment-11-Heaps/Documents/build_from_array.dot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/CS-2420.iml" afterPath="$PROJECT_DIR$/../.idea/CS-2420.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Testing.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cs2420/Runner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Assignment-3-Sudoku/.idea/kotlinc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.0.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.0.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.1.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.1.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.10.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.10.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.100.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.100.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.11.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.11.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.12.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.12.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.13.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.13.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.14.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.14.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.15.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.15.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.16.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.16.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.17.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.17.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.18.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.18.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.19.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.19.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.2.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.2.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.20.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.20.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.21.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.21.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.22.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.22.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.23.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.23.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.24.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.24.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.25.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.25.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.26.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.26.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.27.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.27.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.28.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.28.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.29.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.29.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.3.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.3.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.30.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.30.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.31.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.31.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.32.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.32.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.33.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.33.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.34.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.34.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.35.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.35.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.36.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.36.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.37.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.37.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.38.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.38.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.39.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.39.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.4.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.4.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.40.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.40.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.41.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.41.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.42.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.42.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.43.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.43.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.44.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.44.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.45.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.45.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.46.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.46.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.47.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.47.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.48.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.48.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.49.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.49.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.5.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.5.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.50.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.50.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.51.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.51.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.52.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.52.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.53.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.53.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.54.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.54.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.55.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.55.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.56.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.56.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.57.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.57.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.58.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.58.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.59.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.59.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.6.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.6.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.60.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.60.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.61.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.61.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.62.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.62.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.63.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.63.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.64.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.64.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.65.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.65.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.66.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.66.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.67.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.67.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.68.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.68.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.69.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.69.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.7.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.7.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.70.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.70.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.71.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.71.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.72.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.72.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.73.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.73.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.74.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.74.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.75.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.75.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.76.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.76.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.77.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.77.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.78.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.78.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.79.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.79.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.8.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.8.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.80.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.80.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.81.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.81.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.82.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.82.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.83.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.83.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.84.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.84.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.85.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.85.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.86.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.86.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.87.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.87.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.88.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.88.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.89.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.89.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.9.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.9.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.90.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.90.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.91.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.91.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.92.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.92.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.93.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.93.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.94.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.94.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.95.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.95.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.96.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.96.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.97.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.97.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.98.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.98.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.99.huf" afterPath="$PROJECT_DIR$/Resources/compressed/a_few_letters/a_few_letters.99.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.0.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.0.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.1.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.1.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.10.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.10.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.100.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.100.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.11.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.11.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.12.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.12.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.13.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.13.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.14.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.14.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.15.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.15.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.16.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.16.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.17.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.17.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.18.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.18.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.19.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.19.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.2.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.2.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.20.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.20.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.21.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.21.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.22.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.22.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.23.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.23.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.24.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.24.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.25.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.25.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.26.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.26.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.27.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.27.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.28.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.28.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.29.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.29.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.3.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.3.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.30.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.30.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.31.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.31.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.32.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.32.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.33.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.33.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.34.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.34.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.35.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.35.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.36.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.36.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.37.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.37.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.38.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.38.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.39.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.39.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.4.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.4.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.40.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.40.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.41.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.41.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.42.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.42.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.43.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.43.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.44.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.44.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.45.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.45.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.46.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.46.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.47.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.47.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.48.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.48.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.49.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.49.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.5.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.5.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.50.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.50.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.51.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.51.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.52.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.52.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.53.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.53.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.54.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.54.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.55.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.55.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.56.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.56.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.57.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.57.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.58.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.58.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.59.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.59.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.6.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.6.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.60.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.60.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.61.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.61.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.62.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.62.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.63.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.63.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.64.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.64.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.65.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.65.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.66.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.66.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.67.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.67.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.68.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.68.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.69.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.69.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.7.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.7.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.70.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.70.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.71.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.71.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.72.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.72.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.73.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.73.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.74.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.74.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.75.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.75.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.76.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.76.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.77.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.77.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.78.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.78.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.79.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.79.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.8.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.8.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.80.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.80.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.81.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.81.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.82.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.82.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.83.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.83.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.84.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.84.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.85.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.85.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.86.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.86.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.87.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.87.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.88.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.88.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.89.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.89.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.9.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.9.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.90.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.90.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.91.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.91.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.92.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.92.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.93.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.93.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.94.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.94.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.95.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.95.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.96.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.96.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.97.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.97.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.98.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.98.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.99.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabet/alphabet.99.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.0.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.0.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.1.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.1.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.10.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.10.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.100.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.100.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.11.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.11.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.12.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.12.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.13.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.13.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.14.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.14.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.15.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.15.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.16.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.16.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.17.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.17.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.18.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.18.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.19.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.19.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.2.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.2.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.20.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.20.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.21.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.21.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.22.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.22.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.23.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.23.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.24.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.24.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.25.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.25.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.26.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.26.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.27.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.27.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.28.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.28.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.29.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.29.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.3.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.3.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.30.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.30.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.31.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.31.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.32.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.32.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.33.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.33.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.34.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.34.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.35.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.35.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.36.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.36.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.37.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.37.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.38.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.38.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.39.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.39.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.4.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.4.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.40.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.40.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.41.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.41.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.42.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.42.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.43.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.43.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.44.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.44.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.45.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.45.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.46.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.46.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.47.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.47.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.48.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.48.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.49.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.49.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.5.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.5.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.50.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.50.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.51.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.51.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.52.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.52.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.53.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.53.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.54.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.54.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.55.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.55.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.56.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.56.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.57.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.57.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.58.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.58.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.59.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.59.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.6.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.6.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.60.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.60.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.61.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.61.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.62.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.62.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.63.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.63.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.64.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.64.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.65.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.65.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.66.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.66.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.67.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.67.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.68.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.68.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.69.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.69.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.7.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.7.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.70.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.70.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.71.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.71.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.72.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.72.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.73.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.73.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.74.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.74.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.75.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.75.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.76.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.76.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.77.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.77.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.78.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.78.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.79.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.79.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.8.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.8.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.80.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.80.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.81.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.81.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.82.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.82.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.83.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.83.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.84.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.84.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.85.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.85.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.86.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.86.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.87.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.87.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.88.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.88.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.89.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.89.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.9.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.9.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.90.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.90.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.91.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.91.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.92.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.92.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.93.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.93.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.94.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.94.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.95.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.95.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.96.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.96.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.97.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.97.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.98.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.98.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.99.huf" afterPath="$PROJECT_DIR$/Resources/compressed/alphabetplus/alphabetplus.99.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.0.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.0.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.1.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.1.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.10.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.10.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.100.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.100.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.11.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.11.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.12.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.12.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.13.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.13.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.14.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.14.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.15.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.15.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.16.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.16.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.17.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.17.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.18.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.18.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.19.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.19.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.2.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.2.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.20.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.20.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.21.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.21.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.22.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.22.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.23.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.23.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.24.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.24.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.25.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.25.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.26.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.26.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.27.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.27.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.28.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.28.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.29.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.29.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.3.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.3.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.30.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.30.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.31.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.31.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.32.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.32.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.33.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.33.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.34.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.34.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.35.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.35.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.36.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.36.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.37.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.37.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.38.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.38.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.39.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.39.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.4.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.4.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.40.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.40.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.41.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.41.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.42.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.42.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.43.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.43.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.44.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.44.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.45.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.45.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.46.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.46.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.47.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.47.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.48.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.48.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.49.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.49.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.5.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.5.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.50.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.50.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.51.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.51.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.52.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.52.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.53.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.53.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.54.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.54.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.55.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.55.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.56.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.56.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.57.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.57.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.58.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.58.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.59.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.59.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.6.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.6.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.60.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.60.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.61.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.61.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.62.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.62.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.63.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.63.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.64.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.64.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.65.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.65.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.66.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.66.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.67.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.67.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.68.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.68.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.69.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.69.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.7.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.7.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.70.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.70.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.71.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.71.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.72.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.72.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.73.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.73.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.74.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.74.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.75.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.75.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.76.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.76.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.77.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.77.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.78.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.78.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.79.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.79.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.8.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.8.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.80.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.80.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.81.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.81.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.82.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.82.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.83.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.83.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.84.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.84.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.85.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.85.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.86.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.86.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.87.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.87.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.88.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.88.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.89.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.89.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.9.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.9.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.90.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.90.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.91.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.91.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.92.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.92.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.93.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.93.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.94.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.94.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.95.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.95.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.96.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.96.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.97.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.97.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.98.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.98.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/compressed/simple/simple.99.huf" afterPath="$PROJECT_DIR$/Resources/compressed/simple/simple.99.huf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Assignment-11-Heaps/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Assignment-11-Heaps/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/Documents/assignment.properties" afterPath="$PROJECT_DIR$/../Assignment-11-Heaps/Documents/assignment.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/Assignment-11-Heaps.iml" afterPath="$PROJECT_DIR$/../Assignment-11-Heaps/Assignment-11-Heaps.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/Heap Deque In Order.txt" afterPath="$PROJECT_DIR$/../Assignment-11-Heaps/Heap Deque In Order.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/Heap Deque Random.txt" afterPath="$PROJECT_DIR$/../Assignment-11-Heaps/Heap Deque Random.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/Heap Deque Same.txt" afterPath="$PROJECT_DIR$/../Assignment-11-Heaps/Heap Deque Same.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/Heap Insertion In Order.txt" afterPath="$PROJECT_DIR$/../Assignment-11-Heaps/Heap Insertion In Order.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/Heap Insertion Random.txt" afterPath="$PROJECT_DIR$/../Assignment-11-Heaps/Heap Insertion Random.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/Heap Insertion Same.txt" afterPath="$PROJECT_DIR$/../Assignment-11-Heaps/Heap Insertion Same.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/src/cs2420/Heap.java" afterPath="$PROJECT_DIR$/../Assignment-11-Heaps/src/cs2420/Heap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/src/cs2420/Testing.java" afterPath="$PROJECT_DIR$/../Assignment-11-Heaps/src/cs2420/Testing.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/src/cs2420/Tests/build_from_array_in_order.java" afterPath="$PROJECT_DIR$/../Assignment-11-Heaps/src/cs2420/Tests/build_from_array_in_order.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/src/cs2420/Tests/build_from_array_random.java" afterPath="$PROJECT_DIR$/../Assignment-11-Heaps/src/cs2420/Tests/build_from_array_random.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/src/cs2420/Tests/build_from_array_same.java" afterPath="$PROJECT_DIR$/../Assignment-11-Heaps/src/cs2420/Tests/build_from_array_same.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/src/cs2420/Tests/deque_in_order.java" afterPath="$PROJECT_DIR$/../Assignment-11-Heaps/src/cs2420/Tests/deque_in_order.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/src/cs2420/Tests/deque_random.java" afterPath="$PROJECT_DIR$/../Assignment-11-Heaps/src/cs2420/Tests/deque_random.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/src/cs2420/Tests/deque_same.java" afterPath="$PROJECT_DIR$/../Assignment-11-Heaps/src/cs2420/Tests/deque_same.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/src/cs2420/Tests/insertion_random.java" afterPath="$PROJECT_DIR$/../Assignment-11-Heaps/src/cs2420/Tests/insertion_random.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/src/cs2420/Tests/insertion_same.java" afterPath="$PROJECT_DIR$/../Assignment-11-Heaps/src/cs2420/Tests/insertion_same.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-11-Heaps/src/cs2420/Timing.java" afterPath="$PROJECT_DIR$/../Assignment-11-Heaps/src/cs2420/Timing.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/lab02/Maze.java" afterPath="$PROJECT_DIR$/../src/lab02/Maze.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/lab04/ComparatorPractice.java" afterPath="$PROJECT_DIR$/../src/lab04/ComparatorPractice.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/lab05/AnimalChallenge.java" afterPath="$PROJECT_DIR$/../src/lab05/AnimalChallenge.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/lab07/ScratchPaper.java" afterPath="$PROJECT_DIR$/../src/lab07/ScratchPaper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/lab08/Charter.java" afterPath="$PROJECT_DIR$/../src/lab08/Charter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/lab08/CheckRandomNumberGenerator.java" afterPath="$PROJECT_DIR$/../src/lab08/CheckRandomNumberGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/lab09/IteratorPractice.java" afterPath="$PROJECT_DIR$/../src/lab09/IteratorPractice.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/lab10/ExampleTester.java" afterPath="$PROJECT_DIR$/../src/lab10/ExampleTester.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/lab11/Decoder.java" afterPath="$PROJECT_DIR$/../src/lab11/Decoder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/lab11/PropertyPrinterBuilder.java" afterPath="$PROJECT_DIR$/../src/lab11/PropertyPrinterBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignment-12-Huffman.iml" afterPath="$PROJECT_DIR$/Assignment-12-Huffman.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/TestData/Words As Symbols a_few_letters.txt" afterPath="$PROJECT_DIR$/Resources/TestData/Words As Symbols a_few_letters.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/TestData/Words As Symbols alphabet.txt" afterPath="$PROJECT_DIR$/Resources/TestData/Words As Symbols alphabet.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/TestData/Words As Symbols alphabetplus.txt" afterPath="$PROJECT_DIR$/Resources/TestData/Words As Symbols alphabetplus.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/TestData/Words As Symbols constitution.txt" afterPath="$PROJECT_DIR$/Resources/TestData/Words As Symbols constitution.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/TestData/Words As Symbols decl_of_ind.txt" afterPath="$PROJECT_DIR$/Resources/TestData/Words As Symbols decl_of_ind.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/TestData/Words As Symbols green_eggs_and_ham.txt" afterPath="$PROJECT_DIR$/Resources/TestData/Words As Symbols green_eggs_and_ham.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/TestData/Words As Symbols simple.txt" afterPath="$PROJECT_DIR$/Resources/TestData/Words As Symbols simple.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/TestData/Words As Symbols two_cities.txt" afterPath="$PROJECT_DIR$/Resources/TestData/Words As Symbols two_cities.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cs2420/HuffmanTest.java" afterPath="$PROJECT_DIR$/src/cs2420/HuffmanTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Assignment-3-Sudoku/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Assignment-3-Sudoku/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,8 +458,20 @@
       <file leaf-file-name="HuffmanTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cs2420/HuffmanTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="306">
+              <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cs2420/Runner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,6 +535,8 @@
         <option value="$PROJECT_DIR$/src/cs2420/Tests/HuffmanTest.java" />
         <option value="$PROJECT_DIR$/src/cs2420/Tests/Test.java" />
         <option value="$PROJECT_DIR$/../src/Timing.java" />
+        <option value="$PROJECT_DIR$/../../Testing-master/out/artifacts/Testing_jar/Testing.jar!/Tests/Test.class" />
+        <option value="$PROJECT_DIR$/src/cs2420/Runner.java" />
         <option value="$PROJECT_DIR$/src/cs2420/HuffmanTest.java" />
       </list>
     </option>
@@ -139,8 +544,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="22" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="width" value="3856" />
+    <option name="height" value="2146" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -158,7 +563,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -201,12 +605,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Testing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Assignment-11-Heaps" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -238,33 +643,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Timing">
-    <configuration default="false" name="JUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Assignment-12-Huffman" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cs2420" />
-      <option name="MAIN_CLASS_NAME" value="cs2420.JUnitTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Runner">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -348,6 +727,26 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="CS-2420" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cs2420.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="cs2420.Runner" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Assignment-12-Huffman" />
       <envs />
       <method />
     </configuration>
@@ -527,6 +926,44 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -555,35 +992,46 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
       <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="" />
-      <envMap />
-      <setting name="rowsRange" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.JUnitTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.JUnitTest.testBitOperations" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Compress_and_Decompress" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Timing" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.JUnitTest.testBitOperations" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Compress_and_Decompress" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Timing" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Runner" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Timing" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Compress_and_Decompress" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.JUnitTest.testBitOperations" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.JUnitTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Runner" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Timing" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Compress_and_Decompress" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.JUnitTest.testBitOperations" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -634,7 +1082,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="22" width="3856" height="2146" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -645,13 +1093,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25627616" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25589392" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08177083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -707,36 +1155,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Resources/green_eggs_and_ham.0.huf" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="3334" column="0" lean-forward="false" selection-start-line="3334" selection-start-column="0" selection-end-line="3334" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/AbstractStringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="450" column="0" lean-forward="false" selection-start-line="450" selection-start-column="0" selection-end-line="450" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/AbstractStringBuilder.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/StringBuilder.java" />
     <entry file="file://$PROJECT_DIR$/Resources/two_cities.0.huf" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="621" column="15" lean-forward="false" selection-start-line="621" selection-start-column="15" selection-end-line="621" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/Resources/a_few_letters.0.huf" />
     <entry file="file://$PROJECT_DIR$/src/cs2420/Kx0RFf09.java" />
     <entry file="file://$PROJECT_DIR$/Resources/two_cities">
@@ -750,7 +1172,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="38" column="36" lean-forward="false" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -767,9 +1188,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1938">
           <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding>
-            <element signature="e#3284#3285#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -783,21 +1201,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Documents/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Documents/README.md" />
     <entry file="file://$PROJECT_DIR$/src/cs2420/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="69" column="19" lean-forward="true" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -862,13 +1270,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="965" column="17" lean-forward="false" selection-start-line="965" selection-start-column="17" selection-end-line="965" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/io/File.java" />
     <entry file="file://$PROJECT_DIR$/src/cs2420/Tests/words_as_symbols_alphabet.java" />
     <entry file="file://$PROJECT_DIR$/src/cs2420/Tests/words_as_symbols_alphabetplus.java" />
     <entry file="file://$PROJECT_DIR$/src/cs2420/Tests/words_as_symbols_constitution.java" />
@@ -903,36 +1305,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Testing/src/Tests/Test.java">
+    <entry file="file://$PROJECT_DIR$/../../Testing/src/Tests/Test.java" />
+    <entry file="file://$PROJECT_DIR$/../../Testing/src/Timing.java" />
+    <entry file="file://$PROJECT_DIR$/src/cs2420/JUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="425">
+          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Testing/src/Timing.java">
+    <entry file="jar://$PROJECT_DIR$/../../Testing-master/out/artifacts/Testing_jar/Testing.jar!/Tests/Test.class" />
+    <entry file="file://$PROJECT_DIR$/src/cs2420/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="83" column="11" lean-forward="false" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
+        <state relative-caret-position="391">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cs2420/JUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cs2420/HuffmanTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="306">
+          <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -968,6 +1364,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>scala-sdk-2.12.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -996,6 +1393,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1015,7 +1413,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>src</last-edited>
+          <last-edited>Testing</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
